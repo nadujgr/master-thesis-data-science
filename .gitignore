@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data and results (sensitive — not tracked in version control)
+data/
+results/
+graphs/
+outputs/
+docs/
+models/
+tools/
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.pickle
+
+# Jupyter notebooks (migrated to src/ — no longer needed)
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
